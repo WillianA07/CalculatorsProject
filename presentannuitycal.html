@@ -55,12 +55,37 @@
     </header>
 
     <main>
-        <p>This is annuity cal</p>
+        <h1 class="display-3">Present Annuity</h1>
+
+        <div class="form-signin">
+            <div>
+                <label for="fixedPaymentAmount" class="form-label">Amount of each Payemnt</label>
+                <input type="text" class="form-control my-2" id="fixedPaymentAmount">
+            </div>
+
+            <div>
+                <label for="interestRate" class="form-label">Interest Rate</label>
+                <input type="text" class="form-control my-2" id="interestRate">
+            </div>
+
+            <div>
+                <label for="numberOfPeriods" class="form-label">Number of Periods</label>
+                <input type="text" class="form-control my-2" id="numberOfPeriods">
+            </div>
+
+            <div>
+                <input type="button" class="my-3" id="calculateButton" value="Calculate">
+            </div>
+
+            <div>
+                <label for="totalPresentValue" class="form-label">Present Value</label>
+                <input type="text" class="form-control my-2" id="totalPresentValue">
+            </div>
+        </div>
     </main>
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="scripts/presentannuitycal.js"></script>
 </body>
 
 </html>
